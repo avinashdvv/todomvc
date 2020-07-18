@@ -1,76 +1,39 @@
-# Project Title
-
-One Paragraph of project description goes here
+# Simple ES6, styled-components starter kit
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Starter kit for ES6, Css-in-Js for plain js apps
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+  npm install
 ```
 
-And repeat
-
+### Preview
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+  npm run preview
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+### Apps Build
+- [ ] TODO
+- [ ] Calculator
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [styled-components](https://styled-components.com/) - The Css-in-Js library
+* [ES6](https://babeljs.io/docs/en/learn/) - ES6 transpiler
+* [Rollup](https://rollupjs.org/) - Build tool
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://www.github.com) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [D.V.V.Avinash](https://github.com/avinashdvv)
+* **D.V.V.Avinash** - *Initial work* - [D.V.V.Avinash](https://github.com/avinashdvv)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/avinashdvv/simple-js-starter-kit/contributors) who participated in this project.
 
 ## License
 
