@@ -21,7 +21,7 @@ Starter kit for ES6, Css-in-Js for plain js apps
 
 ## Built With
 
-* [styled-components](https://styled-components.com/) - The Css-in-Js library
+* [Stylus](https://github.com/stylus/stylus) - The Stylus
 * [ES6](https://babeljs.io/docs/en/learn/) - ES6 transpiler
 * [Rollup](https://rollupjs.org/) - Build tool
 
