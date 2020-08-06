@@ -18,6 +18,8 @@ Starter kit for ES6, Css-in-Js for plain js apps
 ### Apps Build
 - [ ] TODO
 - [ ] Calculator
+- [ ] Snake Game
+- [ ] Tetris
 
 ## Built With
 
