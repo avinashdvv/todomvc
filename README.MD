@@ -15,12 +15,6 @@ Starter kit for ES6, Css-in-Js for plain js apps
   npm run preview
 ```
 
-### Apps Build
-- [ ] TODO
-- [ ] Calculator
-- [ ] Snake Game
-- [ ] Tetris
-
 ## Built With
 
 * [Stylus](https://github.com/stylus/stylus) - The Stylus
