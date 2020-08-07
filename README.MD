@@ -12,7 +12,7 @@ Starter kit for ES6, Stylus for plain js apps
 
 ### Start
 ```
-  npm run start
+  npm start
 ```
 
 ## Built With
@@ -35,8 +35,3 @@ See also the list of [contributors](https://github.com/avinashdvv/simple-js-star
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
