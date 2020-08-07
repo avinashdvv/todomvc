@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Starter kit for ES6, Css-in-Js for plain js apps
+Starter kit for ES6, Stylus for plain js apps
 
 ### Installing
 
