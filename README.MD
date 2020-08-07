@@ -10,9 +10,9 @@ Starter kit for ES6, Stylus for plain js apps
   npm install
 ```
 
-### Preview
+### Start
 ```
-  npm run preview
+  npm run start
 ```
 
 ## Built With

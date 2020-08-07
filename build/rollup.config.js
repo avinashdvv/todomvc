@@ -43,7 +43,12 @@ export default {
     }),
 
     // Hot Reloading
-    serve('../public'),
+    serve({
+       // Launch in browser
+      open: true,
+
+      contentBase: '../public'
+    }),
     livereload({
       watch: '../public'
     })
