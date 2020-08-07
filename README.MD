@@ -21,9 +21,6 @@ Starter kit for ES6, Stylus for building plain js apps.
 * [ES6](https://babeljs.io/docs/en/learn/) - ES6 transpiler
 * [Rollup](https://rollupjs.org/) - Build tool
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://www.github.com) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
