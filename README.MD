@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Starter kit for ES6, Stylus for plain js apps
+Starter kit for ES6, Stylus for building plain js apps.
 
 ### Installing
 
@@ -28,8 +28,6 @@ Please read [CONTRIBUTING.md](https://www.github.com) for details on our code of
 ## Authors
 
 * **D.V.V.Avinash** - *Initial work* - [D.V.V.Avinash](https://github.com/avinashdvv)
-
-See also the list of [contributors](https://github.com/avinashdvv/simple-js-starter-kit/contributors) who participated in this project.
 
 ## License
 
