@@ -4,6 +4,8 @@ import commonjs from 'rollup-plugin-commonjs';
 import stylus from 'rollup-plugin-stylus-compiler';
 import html from '@rollup/plugin-html';
 import postcss from 'rollup-plugin-postcss'
+import serve from 'rollup-plugin-serve'
+import livereload from 'rollup-plugin-livereload'
 
 import template from './html.template';
 
@@ -38,6 +40,12 @@ export default {
     // HTML generation
     html({
       template
+    }),
+
+    // Hot Reloading
+    serve('../public'),
+    livereload({
+      watch: '../public'
     })
   ]
 };

@@ -5,7 +5,7 @@ function init() {
 
   const html = `<h1>Test</h1>`;
 
-  appElement.appendChild(html);
+  appElement.innerHTML = html;
 };
 
 init();
