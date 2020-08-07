@@ -1,4 +1,4 @@
-# Simple ES6, styled-components starter kit
+# Simple ES6, Stylus starter kit
 
 ## Getting Started
 
