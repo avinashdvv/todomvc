@@ -6,6 +6,7 @@ import html from '@rollup/plugin-html';
 import postcss from 'rollup-plugin-postcss'
 import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload'
+import loadHtml from 'rollup-plugin-html';
 
 import template from './html.template';
 
@@ -19,8 +20,12 @@ export default {
   plugins: [
     // Support for styles
     stylus(),
-    postcss({ 
+    postcss({
       extract: true
+    }),
+
+    loadHtml({
+      include: '../**/*.html'
     }),
 
     // Load third-party modules in node_modules

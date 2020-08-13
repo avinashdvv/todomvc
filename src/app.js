@@ -1,11 +1,8 @@
-import './styles/app.styl';
+import views from './js/views';
 
-function init() {
-  const appElement = document.getElementById('app');
+import './styles/base.styl';
 
-  const html = `<h1>Test</h1>`;
 
-  appElement.innerHTML = html;
-};
+const appElement = document.getElementById('app');
 
-init();
+appElement.innerHTML = views;

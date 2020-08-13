@@ -15,6 +15,14 @@ Starter kit for ES6, Stylus for building plain js apps.
   npm start
 ```
 
+### Apps
+```
+- [ ] TODO
+- [ ] Calculator
+- [ ] Snake Game
+- [ ] Tetris Game
+```
+
 ## Built With
 
 * [Stylus](https://github.com/stylus/stylus) - The Stylus

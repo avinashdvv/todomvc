@@ -3,7 +3,7 @@ const template = () => `
   <html>
     <head>
       <title>Simple JS Starter Kit</title>
-      <link href="./app.css"> </link>
+      <link rel="stylesheet" href="./app.css"> </link>
     </head>
     <body>
       <div id="app"></div>
