@@ -1,22 +1,72 @@
-import utils from '../utils';
+import { logger } from '../utils';
 
 export default class Store {
-  constructor(id) {
-    const { localStorage } = window;
-
-    this.TODO_LIST = JSON.parse(localStorage.getItem(id) || '[]');
+  constructor(storeId) {
+    localStorage(storeId);
   }
 
-  find = query => {
-    return this.TODO_LIST.filter(query);
+  add = (newTodo, CB) => {
+    const store = getStore();
+
+    setStore({
+      ...store,
+      items: [ ...store.items, newTodo]
+    }, CB);
   }
 
-  add = () => {
+  remove = (todoId) => {
+    const store = getStore();
+
+    setStore({
+      ...store,
+      items: store.items.filter(({ id }) => id !== todoId)
+    }, CB);
   }
 
-  remove = () => {}
+  update = (updateTodo) => {
+    const store = getStore();
 
-  update = () => {}
+    setStore({
+      ...store,
+      items: store.items.map((todo) => {
+        if (todo.id === updateTodo.id) {
+          return updateTodo;
+        }
 
-  count = () => {}
+        return todo;
+      })
+    }, CB);
+  }
+
+  count = () => {
+    const store = getStore();
+
+    return store.items.length;
+  }
+
+  find = (searchTerm) => {
+    const store = getStore();
+
+    // TODO: can be written batter manner
+    return store.items.filter(todo => {
+      return todo.name.includes(searchTerm)
+    })
+  }
+}
+
+
+function localStorage(storeId) {
+  return {
+    get: () => {
+      return JSON.parse(window.localStorage.getItem(storeId) || `{
+        id: ${storeId},
+        items: []
+      }`);
+    },
+    set: (newStoreData, callback) => {
+      window.localStorage.setItem(newStoreData);
+      logger(newStoreData);
+      callback(newStoreData);
+    }
+  }
 }

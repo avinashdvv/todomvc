@@ -1,7 +1,9 @@
+import Modal from './modal';
+
 class TodoMVC {
   constructor(name) {
     this.name = name;
-    this.state = {};
+    this.state = new Modal(name);
   }
 
   render() {

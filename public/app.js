@@ -5,7 +5,7 @@
 class TodoMVC {
   constructor(name) {
     this.name = name;
-    this.state = {};
+    this.state = new Store(name);
   }
 
   render() {
@@ -53,7 +53,9 @@ class TodoMVC {
 
 }
 
-var Apps = [new TodoMVC('TodoMVC')];
+var Apps = [new TodoMVC('TodoMVC', {
+  route: 'todomvc'
+})];
 
 const html = `
   <div>

@@ -6,7 +6,7 @@ const html = `
     <h1>Apps</h1>
 
     <li>
-      ${Apps.map(getLink)}
+      ${Apps.map(app => app.render())}
     </li>
   </div>
 `
