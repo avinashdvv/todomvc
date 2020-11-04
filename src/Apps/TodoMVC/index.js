@@ -1,7 +1,3 @@
-
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
-'use strict';
-
 class TodoMVC {
   constructor(name) {
     this.name = name;
@@ -9,6 +5,7 @@ class TodoMVC {
   }
 
   render() {
+
     return `
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/todomvc-app-css@2.3.0/index.css">
 
@@ -48,29 +45,8 @@ class TodoMVC {
           <p>Part of <a href="http://todomvc.com">Basket</a></p>
         </footer>
         <link rel="stylesheet" href="node_modules/todomvc-common/base.css">
-      `;
-  }
-
+      `
+    }
 }
 
-var Apps = [new TodoMVC('TodoMVC')];
-
-const html = `
-  <div>
-    <h1>Apps</h1>
-
-    <li>
-      ${Apps.map(getLink)}
-    </li>
-  </div>
-`;
-
-function getLink(app) {
-  return `<a href=${app.name.toLowerCase()}>${app.name}</a>`;
-}
-
-function init() {
-  const appElement = document.getElementById('app');
-  appElement.innerHTML = html;
-}
-init();
+export default TodoMVC;
