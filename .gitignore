@@ -4,4 +4,5 @@ node_modules/
 # Optional npm cache directory
 .npm
 
-public/
+# dist file
+public/*
