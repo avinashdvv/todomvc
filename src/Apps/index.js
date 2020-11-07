@@ -1,6 +1,5 @@
-import TodoMVC from './TodoMVC';
+import TodoMVC from './TodoMVC/app';
 
-export default[
-  new TodoMVC('TodoMVC')
-];
-
+export default [
+  TodoMVC
+]
