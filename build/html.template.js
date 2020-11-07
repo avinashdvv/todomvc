@@ -2,7 +2,7 @@ const template = () => `
   <!DOCTYPE html>
   <html>
     <head>
-      <title>Simple JS Starter Kit</title>
+      <title>Todo MVC</title>
       <link href="./app.css"> </link>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/todomvc-app-css@2.3.0/index.css">
     </head>
@@ -42,7 +42,7 @@ const template = () => `
       <footer class="info">
         <p>Part of <a href="http://todomvc.com">Basket</a></p>
       </footer>
-      <link rel="stylesheet" href="node_modules/todomvc-common/base.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/todomvc-common@1.0.5/base.css">
       <script src="./app.js"> </script>
     </body>
   </html>
